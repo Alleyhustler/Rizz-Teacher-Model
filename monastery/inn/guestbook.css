@@ -1,0 +1,437 @@
+    body {
+            background-image: url('../../img/wUnbenannt-2.png'), url("../../img/paper-texture-1184163.png");
+            /*              url("/img/m806 52ra.png"), url("/img/pa per-texture-1184163.png");*/
+
+            background-size: 315px, 700px;
+            background-repeat: repeat, repeat;
+            background-attachment: fixed, fixed;
+            background-position: 7.5% -0.2%, 0 0;
+            margin: -10px 0 0 0;
+
+        }
+
+        .tablinks1 {
+            justify-content: center;
+
+            position: absolute;
+            margin: 700px 0 0 650px;
+        }
+
+        .tablinks2 {
+            justify-content: center;
+
+            position: absolute;
+            margin: 700px -0 0 0;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 153px 26% 0;
+
+
+
+        }
+
+        .column {}
+
+        .column img {
+            height: auto;
+            max-width: 120px;
+            padding: 0 2px;
+        }
+
+        .bigg {
+            width: 200px;
+            height: auto;
+        }
+
+        .inside {
+            border: 2px re d;
+            position: static;
+            margin: 0 20%;
+        }
+
+        #inner1 {
+            width: 10px;
+            max-width: 260px;
+            margin: 50px 360px 0 -10px;
+            display: inline-flex;
+            box-sizing: border-box;
+        }
+
+        #inner3 {}
+
+        p {
+            position: absolute;
+            width: 100%;
+        }
+
+        p2 {
+            color: white;
+            position: fixed;
+            margin: 25px 25px;
+            font-family: carol-gothic;
+            font-size: 1.35em;
+        }
+
+        .tab {}
+
+        #inner1 h1 {
+            margin: 60px 0;
+            width: 300px;
+            position: absolute;
+            font-family: carol-gothic;
+            font-size: 2em;
+            color: ;
+
+        }
+
+        #inner1 img {
+            position: absolute;
+            height: 380px;
+            margin: 165px -60px;
+
+        }
+
+        #inner2 img {
+            position: absolute;
+            /*            margin: -13px 44px;*/
+
+        }
+
+
+        #inner2 {
+
+            width: 10px;
+            max-width: 260px;
+            padding: 50px 290px 0 10px;
+            display: inline-flex;
+            box-sizing: border-box;
+        }
+
+
+
+        #outer {
+            width: 103.7%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #inner1 p {
+            width: 300px;
+            margin-top: 60px;
+            position: absolute;
+            font-size: 0.7em;
+            font-family: pragmatapro-fraktur, serif;
+            line-height: 1.2em;
+            color: ;
+
+            /*max-width: 308px;
+            padding-right: 3px;
+            width: 1000px;
+            text-align: center;
+            color: white;
+            font-size: 0.7em;*/
+
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 0px 25%;
+        }
+
+
+
+        .book2 img {
+            position: absolute;
+            width: 1170px;
+            margin: 0 0 0 21px;
+
+        }
+
+        .book {
+            margin-top: 0 px;
+            justify-content: cen ter;
+        }
+
+        .book img {
+            position: absolute;
+            width: 1170px;
+            justify-content: ce nter;
+        }
+
+        .book2 {
+            justify-content: center;
+            display: flex;
+        }
+
+
+        .firstpage {
+
+            border: so lid red;
+            position: absolute;
+            height: ;
+            width: 0%;
+            margin: 0 280px;
+
+        }
+
+        .rest {
+            height: ;
+            width: 0%;
+            position: absolute;
+            margin: -0px -502px;
+        }
+
+        .guestbawk {
+            margin: 0px 10% 0 1140px;
+            width: 40%;
+            display: inline-block;
+            overflow-y: hidden;
+            height: ;
+            border: so lid blue;
+            position: ;
+        }
+
+        .buttonback {
+            position: absolute;
+            top: 350px;
+            right: 400px;
+            background-color: transparent;
+            border: none;
+        }
+
+        .buttonback2 {
+            position: absolute;
+            top: 350px;
+            right: -379px;
+              background-color: transparent;
+            border: none;
+        }
+
+        .buttonforth2 {
+            position: absolute;
+            top: 350px;
+            left: 1250px;
+              background-color: transparent;
+            border: none;
+        }
+
+        .folio {
+            width: 100%;
+            display: flex;
+            border: solid gr een 3px;
+            justify-content: center;
+            margin: 50px;
+        }
+
+        .folioleft {
+            position: absolute;
+            border: solid re d 1px;
+            width: 400px;
+            height: 660px;
+            margin: 0 0 0 -520px;
+        }
+
+        .folioright {
+            position: absolute;
+            border: solid bl ue 1px;
+            width: 400px;
+            height: 660px;
+            margin: 0 0 0 415px;
+        }
+
+        .folioleft2 {
+            position: absolute;
+            border: sol id red 1px;
+            width: 400px;
+            height: 660px;
+            margin: 0 0 0 -90px;
+        }
+
+        .folioright2 {
+            position: absolute;
+            border: solid blu e 1px;
+            width: 400px;
+            height: 660px;
+            margin: 0 0 0 860px;
+        }
+
+
+        .slip {
+            width: 400px;
+            height: auto;
+            text-align: left;
+            padding: 0px 0 15px 0;
+            border-bottom: dashed black 1px;
+            margin: 5px 0px 25px 0;
+
+        }
+
+        .signed {
+            font-family: Sweynheim;
+            font-family: unifrakturmaguntia;
+            text-align: right;
+            margin: 7px 0px 0 0;
+            font-size: 1.7em;
+            line-height: 1em;
+
+            padding: 5px 0;
+            text-decoration-skip: objects;
+            text-decoration: overline underline;
+            text-decoration-style: do uble;
+            text-decoration-skip: edges;
+        }
+
+        .signed a {
+            color: rgb(190, 44, 0);
+            font-style: normal;
+
+        }
+
+        .datum {
+            letter-spacing: 01px;
+            margin: 0 10px 4px 0;
+            font-size: 1.05em;
+            font-weight: 100;
+            text-align: ce nter;
+
+            text-align: ;
+            float: left;
+            bottom: 0;
+            font-family: unifrakturmaguntia;
+
+        }
+
+        .schreiben {
+            font-size: 17.5px;
+            font-weight: 100;
+            line-height: 1.25em;
+            font-family: "Old Standard TT", serif;
+
+        }
+
+        .messagee {
+            width: 350px;
+            margin: -100px 0 0;
+            position: absolute;
+            border: soli d red 1px;
+        }
+
+        .messagee p {
+            color: ;
+            flo at: left;
+            margin: 80px 0 0 -600px;
+
+        }
+
+        .messagee img {
+            float: r ight;
+            width: 230px;
+        }
+
+        @font-face {
+            font-family: Sweynheim;
+
+            src: url("../../Sweynheim%26Pannartz-Subiaco-ProtoRoman120R.html");
+        }
+
+        @font-face {
+            font-family: Zainer-Gotico;
+            src: url("../../Zainer-GoticoAntiqua96G.html");
+        }
+
+        .reply {
+            font-family: AlteSchwabacher;
+            font-weight: 100;
+            font-size: 1.25em;
+
+            line-height: 1em;
+            word-spacing: -2px;
+        }
+
+        mark {
+            background-color: transparent;
+            color: rgb(190, 44, 0);
+            margin: 0 0 5px 0;
+        }
+
+        .reply a,
+        .reply a:visited,
+        .schreiben a,
+        .schreiben a:visited {
+            color: rgb(190, 44, 0);
+
+        }
+
+        .blatt,
+        .blatt1 {
+            position: absolute;
+            top: 672px;
+            text-align: center;
+            left: 50%;
+        }
+        
+        
+        
+        
+           .letter {
+display: block;       
+               margin: 0 200px;
+        position: absolute;}
+        
+              .formze {
+
+            display: inline-block;
+            width: 430px;
+            height: 500px;
+            margin: 130px 0 0 0;
+            text-align: left;
+            padding: 50px 30px;
+            background-image: url('../../../i.pinimg.com/564x/f3/a5/6d/f3a56d4c00597f52de4904f69116756a.jpg');
+            background-size: 500px;
+        }
+
+        textarea {
+            background-color: transparent;
+            resize: none;
+            border-bottom: 1px sol id bla ck;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin: 20px 0;
+            font-size: 1em;
+            font-family: new york times;
+
+
+        }
+
+        .hand {
+            position: absolute;
+            transform: rotate(3deg);
+            margin: 260px 0 0 -200px;
+            width: 235px;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: white;
+            font-family: unifrakturmaguntia;
+            font-weight: 100;
+            width: 430px;
+            margin: 30px 0 -80px 0;
+        }
+
+        .fold {
+            width: 90px;
+            height: 150px;
+            position: absolute;
+            margin: -485px 0 0 -45px;
+        }
+        
+        .spacetotheright {
+            width: 1500px; b order: solid red;
+            height: 300px;
+        }

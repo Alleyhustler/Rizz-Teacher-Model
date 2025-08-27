@@ -1,0 +1,255 @@
+          @import url("../use.typekit.net/mfl4qgw.css");
+          @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&amp;family=UnifrakturMaguntia&amp;display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&amp;display=swap');
+          
+                  
+                @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&amp;family=EB+Garamond:ital@0;1&amp;display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&amp;display=swap');
+
+@font-face {
+    font-family: AlteSchwabacher;
+    src: url("fonts/AlteSchwabacher.ttf");
+}
+
+        @font-face {
+            font-family: gesetz;
+            src: url("fonts/GESETZ.TTF");
+        }
+
+
+        @font-face {
+            font-family: A;
+            src: url("fonts/Requiem-for-A.html");
+        }
+
+        @font-face {
+            font-family: gebet;
+            src: url("fonts/GebetbuchFraktur.ttf");
+        }
+
+  @font-face {
+            font-family: sweynheim;
+            src: url("fonts/Sweynheim.otf");
+        }
+
+        @font-face {
+            font-family: jblack;
+            src: url("fonts/SketchedCassiusBroken.ttf");
+        }
+
+
+
+        @font-face {
+            font-family: lyon;
+            src: url("fonts/1532.ttf");
+        }
+
+
+
+        @font-face {
+            font-family: kleist;
+            src: url("fonts/kleist-frakturregular.ttf");
+        }
+
+        @font-face {
+            font-family: quadrata;
+            src: url("fonts/1492_quadrata_lim.ttf");
+        }
+
+   @font-face {
+            font-family: Schwabach;
+            src: url("fonts/Schwabach.ttf");
+        }
+
+ @font-face {
+            font-family: HandTextur;
+            src: url("fonts/HandTextur.ttf");
+        }
+
+   @font-face {
+            font-family: blackcallig;
+            src: url("fonts/BlackCallig.ttf");
+        }
+
+
+
+
+   @import url(https://db.onlinewebfonts.com/c/26e04e60410e72b6d1ee0be5aa8bbdba?family=rotunda);
+        
+        @font-face {
+            font-family: terrotunda;
+            src: url("fonts/terrotunda.html");
+        }     @font-face {
+            font-family: weissgotisch;
+            src: url("fonts/weiss-gotisch.html");
+        }
+        @font-face {
+            font-family: gotyk2;
+            src: url("fonts/Gotyk2.html");
+        }
+        @font-face {
+            font-family: gesetz;
+            src: url("fonts/GESETZ.TTF");
+        }    @font-face {
+            font-family: sailor;
+            src: url("fonts/DrunkenSailor.ttf");
+        }@font-face {
+            font-family: breit;
+            src: url("fonts/BreitkopfFraktur.html");
+        }
+
+
+        @font-face {
+            font-family: A;
+            src: url("fonts/Requiem-for-A.html");
+        }
+
+        @font-face {
+            font-family: gebet;
+            src: url("fonts/GebetbuchFraktur.ttf");
+        }
+
+
+        @font-face {
+            font-family: jblack;
+            src: url("fonts/SketchedCassiusBroken.ttf");
+        }
+
+
+
+        @font-face {
+            font-family: lyon;
+            src: url("fonts/1532.ttf");
+        }
+
+
+        @font-face {
+            font-family: Frakturfu;
+            src: url("fonts/1534Fraktur.ttf");
+        }
+
+        @font-face {
+            font-family: schwaa;
+            src: url("fonts/1538_Schwabacher.ttf");
+        }
+      @font-face {
+            font-family: lim;
+            src: url("fonts/1492_quadrata_lim.ttf");
+        }
+
+
+
+        @font-face {
+            font-family: kleist;
+            src: url("fonts/kleist-frakturregular.ttf");
+        }
+
+
+        @font-face {
+            font-family: deutschedruck;
+            src: url("fonts/DeutscheDruckschrift.html");
+        }
+
+
+          span img:hover {
+              border: none;
+          }
+
+          span img {
+              border: none;
+          }
+
+          span {
+              cursor: help;
+              border-bottom: 1px dotted;
+
+          }
+
+@font-face {
+    font-family: fleshandblood;
+    src: url("Fleshandblood.html");
+}
+
+@font-face {
+  font-family: Zainer-Gotico;
+  src: url("Zainer-GoticoAntiqua96G.html"); 
+}
+
+       @font-face { 
+             font-family: seagram; src: url('fonts/Seagram_tfb.ttf'); 
+        } 
+        .cen {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    
+          span:hover {
+              border-bottom: none;
+          }
+
+            .center {
+            margin: auto;
+            display: block;
+            text-align:-webkit-center;
+
+            width: 100%;
+
+        }
+                   
+        /* width */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: ; 
+}
+        
+/*        summary {
+  display: block;
+        float: inherit;
+
+    
+}
+
+summary::after {
+  display: inline-block;
+  content: '†';
+      transform: rotate(-90deg);
+    animation: none;
+    float: left;
+    margin-right: 15px;
+
+}
+
+        details>summary::-webkit-details-marker {
+  display: none;
+
+}
+
+        
+details[open] summary::after {
+  transform: rotate(0deg);
+
+        animation: none;
+
+}*/
+          /* 
+blonde-fraktur
+ carol-gothic
+ pragmatapro-fraktur
+ */

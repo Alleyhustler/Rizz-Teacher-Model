@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from blamensir.neocities.org/guide by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Aug 2025 20:24:40 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link rel="stylesheet" href="../use.typekit.net/mfl4qgw.css">
+    <link href="omni.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <title>need a hand?</title>
+    <link href="omni.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        @font-face {
+            font-family: OffenbacherSchwabOTNormal;
+            src: url("fonts/OffenbacherSchwabOT-Normal.otf");
+        }
+
+        @font-face {
+            font-family: Rotunda_Pommerania;
+            src: url("fonts/Rotunda_Pommerania.ttf");
+        }
+
+        @font-face {
+            font-family: SketchedCassiusBroken;
+            src: url("fonts/SketchedCassiusBroken.ttf");
+        }
+
+        @font-face {
+            font-family: GotischWeissa;
+            src: url("fonts/GotischWeissa.ttf");
+        }
+
+        @font-face {
+            font-family: Hamburger_Schwabacher;
+            src: url("fonts/Hamburger_Schwabacher.ttf");
+        }
+
+        @font-face {
+            font-family: DrunkenSailor;
+            src: url("fonts/DrunkenSailor.ttf");
+        }
+
+        @font-face {
+            font-family: Schwabacherq;
+            src: url("fonts/1538_Schwabacher.ttf");
+        }
+
+        body {
+            background-image: url(img/bgmanu.jpg);
+            background-position: 2.78vw 0;
+
+        }
+
+
+        .hand {
+            width: 100vw;
+            position: absolute;
+            margin: -7vw 28vw;
+
+        }
+
+        .hand img {
+            width: 41.67vw;
+
+        }
+
+        .frame {
+            width: 100vw;
+            height: 56vw;
+            background-image: url(img/border_top.png), url(img/border_left.png), url(img/border_bottom.png), url(img/border_right.png);
+            background-position: top, -0.28vw, bottom, right;
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: 100% 1.8vw, 1.67vw 100%, 100% 1.74vw, 1.67vw 100%;
+            position: absolute;
+            margin: -1vw 0 0 -0.5vw;
+
+
+        }
+
+        .clouds,
+        .cloudsq,
+        .cloudsw,
+        .cloudse {
+            margin: 0em 0 0 0;
+
+            min-width: 97.22vw;
+            min-height: 54.86vw;
+            position: absolute;
+            background-image: url(img/clouds2.png);
+            background-size: 41.67vw;
+
+            background-repeat: repeat-x;
+            background-position: 50% 0;
+        }
+
+        .clouds {
+            margin: -2vw 0 0vw 0;
+            height: 48.61vw;
+
+        }
+
+        .cloudsw {
+            transform: rotate(90deg);
+            margin: -21vw -20vw 0 0vw;
+            position: absolute;
+            right: 0;
+            float: right;
+
+        }
+
+        .cloudsq {
+            transform: rotate(180deg);
+            margin: -0vw 0 0 0;
+
+        }
+
+        .cloudse {
+            transform: rotate(-90deg);
+            margin: -21vw 0 0 -22vw;
+
+        }
+
+
+        .commandmends {
+            width: 30.56vw;
+            position: absolute;
+            text-align: left;
+            font-family: DrunkenSailor;
+            font-size: 1.49vw;
+
+            font-weight: 100;
+            color: #3c261c;
+            letter-spacing: -0.06vw;
+            line-height: 1.4vw;
+            /* horizontal-offset vertical-offset 'blur' colour */
+            color: whi te;
+            margin: 25.22vw 0 0 33.69vw;
+        }
+
+        mark {
+            background-color: transparent;
+            color: #a2342b;
+
+            width: 90.28vw;
+        }
+
+        span:hover {
+            color: #a2342b;
+            cursor: url(img/hand%20p.html), auto;
+        }
+
+        .door2:hover {
+            cursor: url(img/handup.png), auto;
+
+        }
+
+        .slit:hover {
+            cursor: url(img/handdown.png), auto;
+
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <audio id="dsno" src="https://64.media.tumblr.com/6e9c6f4c4811cd2e20429ced1eb13da4/8cb9b57cfe6e3f26-a8/5db45d12da09cd94d3c08f429b209092ca5a8367.mp3"></audio>
+
+    <audio id="dsyes" src="https://64.media.tumblr.com/3d7715bb834e18b66bfea847d298a6f5/8cb9b57cfe6e3f26-a9/993a7cd512fe4b884a29495993ae194eb9f5ebd9.mp3"></audio>
+
+    <audio id="beep-three">
+        <source src="https://64.media.tumblr.com/995a4bfa08b694523c03b9fab7b9bebe/8cb9b57cfe6e3f26-09/a201915eb1e0db89e6f876aab42947d4080be29d.mp3">
+    </audio>
+
+   
+            <!--
+    <div class="hand"><img src="/img/handofgod.png"></div>
+    <div class="top"> </div>
+    <div class="bottom"> </div>
+    <div class="left"> </div>
+    <div class="right"> </div>
+    
+-->
+            <div class="hand"><img src="img/handofgod.png"></div>
+
+            <div class="clouds"> </div>
+            <div class="cloudsq"> </div>
+            <div class="cloudsw"> </div>
+            
+            <div class="cloudse"> </div>
+            <div class="frame"></div>
+            <div class="commandmends">
+                <p style="margin: 0 -1.39vw 0em -1.39vw; "><mark>[So you seek pilgrimage to Sankt Blamensir Monastery<br> [heed these commandments that I bestoweth upon thee:</mark></p>
+                <p> [do not look yonder this gilded Frame, align your <span title="This webpage is built on an aspect ratio of around 1440x800px, on a wide screen. It is not suited to be viewed on mobile screens.
+        
+To ensure that you are viewing this website correctly, please align your browser window along the gold frame without any overflow on the x or y axis.">Window of sight</span> along it</p>
+                <p>[behold the <span title="When clicking on certain links/objects, there may be autoplaying sound effects or music. Please mute your browser to avoid them.">melodious Sounds </span>of the world! you may refuse to, but do cover your ears</p>
+                <p>[the <span title="Please enable Javascript and iframes so the website works properly!">Scripture of Java and the Frames of I</span> are in use and crucial to the upkeep of the monastery</p>
+                <p>[beware the <span title="The site contains css/styles that are not viewable in the browsers Firefox & Edge, such as custom scrollbars. For the full experience please use another browser.">Fiery Fox</span></p>
+                <p>[do not rush your visit, take a <span title="If you can read this, you already know the meaning of this commandmend: look out for alt text if you are curious. A special type of cursor generally signifies its existence.">closer Look</span> and you may gain more insight into the workings of this world</p>
+
+                <!--    <p>§You may return here at any point in your traversing through life, as <br>Sankt Blamensir Monastery is as everchanging as it is welcoming to visitors<br> But then, do call into mind these commandmends once again!</p>-->
+                <!--    <p>Only if you take into consideration this Guide will you be enlightened</p> -->
+
+
+                <p style="position: absolute; margin: -31.25vw 0 0 -26.39vw; width: 13.89vw;">If you cannot abide by these rules, return from whence thou camst</p>
+
+                <div id="door"><a onclick="document.getElementById('dsno').play();" href="javascript:delay2('no')"><img src="img/woundofcrist.png" style="position: absolute; margin: -12.85vw 0 0 -27.78vw;  height: 18.06vw; width: 10.42vw" class="slit"></a> </div>
+
+
+                <p style="position: absolute; margin: -31.25vw 0 0 38.54vw; width: 17.36vw; text-align: right">If you agree to follow <br>these words pure of <br>heart, so go forth</p>
+                <div id="door"><a onclick="document.getElementById('dsyes').play();" href="javascript:delay1('yes')"><img src="img/nicedoor.png" style="position: absolute; margin: -13.19vw 0 0 46.88vw; height: 18.75vw;" class="door2"></a></div>
+
+
+
+            </div>
+ 
+
+    <script>
+        function delay1(yes) {
+            setTimeout(function() {
+                window.location = 'parish.html'
+            }, 2500);
+        }
+    </script>
+    <script>
+        function delay2(no) {
+            setTimeout(function() {
+                window.location = 'https://neocities.org/'
+            }, 800);
+        }
+    </script>
+    <script>
+        $("#door a")
+            .each(function(i) {
+                if (i != 1) {
+                    $("#beep-three")
+                        .clone()
+                        .attr("id", "beep-three" + i)
+                        .appendTo($(this).parent());
+                }
+                $(this).data("beeper", i);
+            })
+            .mouseenter(function() {
+                $("#beep-three" + $(this).data("beeper"))[0].play();
+            });
+
+        $("#beep-three").attr("id", "beep-three0");
+    </script>
+
+</body>
+
+
+<!-- Mirrored from blamensir.neocities.org/guide by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Aug 2025 20:24:43 GMT -->
+</html>
